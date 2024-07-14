@@ -18,7 +18,9 @@
 - `multiprocessing` 模块（Python标准库的一部分）
 
 ## 安装依赖
-pip install selenium
+pip install selenium 
+
+下载edge_drive https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?spm=a2c6h.13046898.publish-article.10.46ff6ffakDnACl&form=MA13LH
 
 ## 使用方法
 使用此脚本，请按照以下步骤操作：
