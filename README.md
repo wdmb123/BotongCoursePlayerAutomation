@@ -18,7 +18,9 @@
 - `multiprocessing` 模块（Python标准库的一部分）
 
 ## 安装依赖
+```bash
 pip install selenium 
+```
 
 下载edge_drive https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?spm=a2c6h.13046898.publish-article.10.46ff6ffakDnACl&form=MA13LH
 
@@ -36,12 +38,14 @@ pip install selenium
 
 2. 直接运行脚本并提供CSV文件：
 
-
+    ```bash
     python multiprocess.py useraccount.csv
+    ```
 
     或者
-
+    ```bash
     python processcript.py username password
+    ```
 
 
 
