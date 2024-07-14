@@ -31,11 +31,16 @@ pip install selenium
     ```
 
 这将读取 `accounts.csv` 文件并为每个账号启动一个进程。
+
 2. 直接运行脚本并提供CSV文件：
 
-    ```bash
+
     python multiprocess.py useraccount.csv
-    ```
+
+    或者
+
+    python processcript.py username password
+
 
 
 ## CSV文件格式
