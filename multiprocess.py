@@ -1,7 +1,7 @@
 import csv
 import os
 import multiprocessing
-from processscript import runscript
+from watchdog import watchprocess
 import logging
 import argparse
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
             processes = []
             for row in reader:
                 username, password = row
-                process = multiprocessing.Process(target=runscript, args=(username, password))
+                process = multiprocessing.Process(target=watchprocess, args=(username, password))
                 process.start()
                 processes.append(process)
 
