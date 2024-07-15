@@ -13,8 +13,8 @@ def restart_script(script_path, arguments):    # 重启脚本
     return process
 
 def watchprocess(username, password):
-    script_path = "processscript.py"
-    arguments = [username,password]  # 根据你的脚本参数调整这个列表
+    script_path = "processscript.py" 
+    arguments = [ username,  password] # 根据你的脚本参数调整这个列表
     process = start_script(script_path, arguments)
 
     while True:
@@ -26,3 +26,6 @@ def watchprocess(username, password):
 
         # 每隔一段时间检查一次
         time.sleep(5)
+
+if __name__ == "__main__":
+    watchprocess()
